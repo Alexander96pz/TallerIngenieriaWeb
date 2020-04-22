@@ -1,0 +1,93 @@
+*{
+    padding: 0 px;
+    margin: 0 px;
+}
+/* estilos de letras */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+/* var text-decoration */
+/*--	General Css --*/
+body {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  background-color: #FAF1EF;
+}
+header{
+    color: blue;
+    background-color: #FAF1EF;
+}
+header button{
+    margin-top: 50px;
+    padding: 3px;
+    border-radius: 12px;
+}
+.navegador{
+    width: 90%;
+    margin: auto;
+    background-color: #FAF1EF;
+}
+.navegador .col-md-3{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#ACDDF0;
+}
+.navegador h6{
+    color: red;
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    font-style: italic;
+}
+#slider {
+  width: 100%;
+  background: url("../img/slider-bg2.jpg") ;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 0 280px 0;
+}
+.noticias{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: royalblue;
+}
+.noticias .col-md-6{
+    padding: 12px;
+}
+.sponsors{
+    width: 100%;
+}
+.sponsors .container{
+    width: 98%;
+}
+.sponsors .row{
+    margin: auto 0;
+    padding: 2px;
+}
+
+.sponsors .col-md-3{
+    position: relative;
+    padding: 20px;
+}
+.sponsors p{
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    margin: 2px;
+    background: #191B46;
+}
+footer {
+    background: #F5F5F5;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 55px;
+}
+footer p {
+    font-size: 13px;
+    line-height: 25px;
+    color: #919191;
+    margin: auto;
+}
